@@ -12,8 +12,8 @@ class School
     roster[grade] << student_name
   end
  
-  def grade(grade)
-    roster[grade]
+  def grade(student_grade)
+    roster[student_grade]
   end
   
   def sort
